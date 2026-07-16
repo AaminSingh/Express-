@@ -1,8 +1,9 @@
+require('detenv').config()
 import express from "express"
 
 const app = express()
 
-const PORT = 3000
+const PORT = process.env.PORT || 3000
 
 // app.get("/",(req,res)=>{
 //     res.send("Hello from Aamin and her tea!")
@@ -12,7 +13,7 @@ const PORT = 3000
 //     res.send("What kind of ice-tea you would prefer?")   
 // })
 
-// app.get("/twitter",(req,res)=>{
+// app.get("/twitter",(req,res)=>
 //     res.send("AaminSinghdotcom is my twitter handle, follow me there!")
 //})
 
