@@ -1,9 +1,9 @@
-require('detenv').config()
+import 'dotenv/config'
 import express from "express"
 
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 // app.get("/",(req,res)=>{
 //     res.send("Hello from Aamin and her tea!")
@@ -75,6 +75,6 @@ app.delete('/teas/:id',(req,res)=>{
     return res.status(204).send('deleted')
 })
 
-app.listen(PORT,()=>{
-    console.log(`Server is running at port ${PORT}...😊`)
+app.listen(port,()=>{
+    console.log(`Server is running at port ${port}...😊`)
 })
