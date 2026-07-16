@@ -1,0 +1,23 @@
+{
+  "name": "backend-manager",
+  "version": "1.0.0",
+  "description": "a simple manager for backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  },
+  "keywords": [
+    "backend",
+    "express"
+  ],
+  "author": "Aamin Simmi Singh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
