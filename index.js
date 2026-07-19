@@ -39,7 +39,7 @@ app.use(
 
 app.use(express.json())
 
-let teaData = []
+let teaData = []         //create an empty array to store tea data
 let nextId = 1
 
 //add a new tea
