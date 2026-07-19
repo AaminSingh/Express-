@@ -42,7 +42,6 @@ app.use(express.json())
 let teaData = []
 let nextId = 1
 
-
 //add a new tea
 app.post('/teas',(req,res)=>{
     logger.info("A post request has been made to add a new tea.")
