@@ -30,7 +30,6 @@ const logger = createLogger({
     ],
 });
 
-
 export default logger;
 
 //Keeping track of everything
