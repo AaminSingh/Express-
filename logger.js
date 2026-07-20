@@ -30,7 +30,7 @@ const logger = createLogger({
     ],
 });
 
-export default logger;
+export default logger;   //default is for exporting a single value from a module. It can be imported with any name in another file.
 
 //Keeping track of everything
 //         ↓
